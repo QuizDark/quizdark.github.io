@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: #383838;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.All {
+    background-color: #282828;
+    /* height: 70%;
+    width: 50%; */
+    padding: 2%;
+    border-radius: 15px;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.All h1 {
+    text-align: center;
+    color: #A9A9A9;
+    font-size: 50px;
+}
+
+.All h1:hover {
+    color: #BEBEBE;
+    text-shadow: 5px 5px 10px #181818;
+}
